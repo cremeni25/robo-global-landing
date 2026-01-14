@@ -2,64 +2,78 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <title>Natflix Fitness | Robô Global</title>
+  <title>Natflix Fitness | Robo Global</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Treinos online para emagrecer, ganhar força e melhorar o condicionamento físico sem academia." />
 
+  <!-- SEO básico -->
+  <meta name="description" content="Natflix Fitness é uma plataforma de treinos online para emagrecer, ganhar força e melhorar o condicionamento físico em casa." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Estilo interno (autônomo, sem dependência externa) -->
   <style>
-    body {
+    * {
+      box-sizing: border-box;
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: radial-gradient(circle at top, #0b1a33, #050b1a);
-      color: #ffffff;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+                   Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    body {
       min-height: 100vh;
+      background: radial-gradient(circle at top left, #0f2027, #000814);
+      color: #ffffff;
       display: flex;
       align-items: center;
       justify-content: center;
+      padding: 24px;
     }
 
     .container {
-      max-width: 900px;
-      padding: 60px 40px;
+      max-width: 720px;
+      width: 100%;
     }
 
     h1 {
-      color: #3aa9ff;
-      font-size: 42px;
-      margin-bottom: 24px;
+      font-size: 2.4rem;
+      color: #4fd1ff;
+      margin-bottom: 20px;
     }
 
     p {
-      font-size: 18px;
+      font-size: 1.05rem;
       line-height: 1.6;
-      color: #d0d6e0;
-      margin-bottom: 18px;
+      margin-bottom: 14px;
+      color: #e6edf3;
     }
 
     .cta {
-      margin-top: 40px;
+      margin-top: 32px;
     }
 
     .cta a {
       display: inline-block;
-      background-color: #2ecc71;
-      color: #0b1a33;
-      padding: 18px 36px;
-      font-size: 18px;
-      font-weight: bold;
+      background: #22c55e;
+      color: #001b0a;
       text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: 600;
+      padding: 16px 36px;
       border-radius: 10px;
-      transition: background-color 0.2s ease;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+      box-shadow: 0 10px 30px rgba(34, 197, 94, 0.35);
     }
 
     .cta a:hover {
-      background-color: #27ae60;
+      background: #16a34a;
+      transform: translateY(-2px);
+      box-shadow: 0 14px 40px rgba(34, 197, 94, 0.45);
     }
 
-    footer {
-      margin-top: 60px;
-      font-size: 12px;
-      color: #8a92a6;
+    .footer-note {
+      margin-top: 40px;
+      font-size: 0.85rem;
+      color: #94a3b8;
     }
   </style>
 </head>
@@ -69,15 +83,14 @@
     <h1>Natflix Fitness</h1>
 
     <p>
-      O Natflix Fitness é uma plataforma de treinos online criada para pessoas
-      que querem emagrecer, ganhar força e melhorar o condicionamento físico
-      sem precisar de academia.
+      O Natflix Fitness é uma plataforma de treinos online criada para pessoas que
+      querem emagrecer, ganhar força e melhorar o condicionamento físico sem precisar
+      de academia.
     </p>
 
     <p>
-      Com programas guiados, treinos progressivos e aulas sob demanda,
-      o Natflix permite que qualquer pessoa treine em casa, no seu ritmo,
-      com acompanhamento profissional.
+      Com programas guiados, treinos progressivos e aulas sob demanda, o Natflix permite
+      que qualquer pessoa treine em casa, no seu ritmo, com acompanhamento profissional.
     </p>
 
     <p>
@@ -85,14 +98,15 @@
     </p>
 
     <div class="cta">
+      <!-- LINK CANÔNICO, ABSOLUTO E DEFINITIVO -->
       <a href="https://api.roboglobal.com.br/go/natflix">
         Acessar Natflix Fitness
       </a>
     </div>
 
-    <footer>
-      Operado pelo Robô Global • Sistema de validação orgânica
-    </footer>
+    <div class="footer-note">
+      Operado pelo Robô Global • Validação orgânica • Sem tráfego pago sem ROI
+    </div>
   </div>
 </body>
 </html>
